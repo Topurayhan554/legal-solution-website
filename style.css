@@ -165,3 +165,22 @@ ul li a {
   font-size: 1rem;
   color: #ffffff;
 }
+
+/* question style */
+.question-card {
+  width: 570px;
+  background-color: #f3f3f3;
+  padding: 32px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.question-parent {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px auto;
+}
+.img-parent {
+  width: 100%;
+}
