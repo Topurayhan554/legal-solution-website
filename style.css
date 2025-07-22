@@ -85,3 +85,61 @@ ul li a {
   border: none;
   border-radius: 4px;
 }
+/* practice style */
+.practice-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #414040;
+}
+
+.practice-des {
+  color: #707070;
+  max-width: 714px;
+  margin-top: 10px;
+}
+.practice-parent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* services */
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 64px;
+}
+.service-card img {
+  width: 72px;
+  height: 72px;
+}
+.service-card h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #414040;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.service-card p {
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 30px;
+  max-width: 258px;
+}
+.frame-img {
+  width: 40px;
+  height: 40px;
+}
+.service-card {
+  padding: 20px;
+  border: 1px solid beige;
+  border-radius: 10px;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
