@@ -237,12 +237,15 @@ textarea {
 footer {
   background-color: #111111;
   padding: 10;
+
+  margin-top: 50px;
+  height: 506px;
 }
 .footer-parent {
   display: flex;
   justify-content: center;
   gap: 81px;
-  height: 506px;
+  padding: 20px;
 }
 footer h3 {
   font-size: 1.5rem;
@@ -264,10 +267,7 @@ footer p {
 .link-parent ul a {
   color: #cfcfcf;
 }
-.footer-left {
-  width: 260px;
-  margin-top: 100px;
-}
+
 .footer-left img {
   margin-bottom: 45px;
 }
