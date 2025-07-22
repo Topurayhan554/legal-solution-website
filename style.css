@@ -41,3 +41,47 @@ ul li a {
   text-decoration: none;
   color: #707070;
 }
+
+/* banner style */
+.banner {
+  width: 100%;
+  height: 550px;
+  background-image: url(./images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  margin: 50px auto;
+}
+.banner-content {
+  max-width: 692px;
+}
+.banner-content h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.banner-content p {
+  color: #e7e7e7;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 674px;
+  margin: 0 auto;
+}
+.search-box input {
+  padding: 19px 150px;
+  border: none;
+  border-radius: 4px;
+}
