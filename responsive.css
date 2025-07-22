@@ -1,8 +1,15 @@
 @media screen and (max-width: 576px) {
   nav,
   ul,
-  .search-box {
+  .search-box,
+  .contact-container,
+  .footer-parent {
     flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .question-parent {
+    flex-direction: column-reverse;
     gap: 20px;
     text-align: center;
   }
@@ -13,19 +20,42 @@
   .search-box input {
     width: 100%;
   }
-  .service-container {
+  .service-container,
+  .contact-left {
     grid-template-columns: 1fr;
+  }
+  .question-card {
+    width: 100%;
+  }
+  .contact-parent input,
+  textarea {
+    width: 100%;
+  }
+  .contact-parent .btn,
+  .contact-card {
+    width: 100%;
   }
 }
 
 /* tablet device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  nav {
+  nav,
+  .contact-container {
     flex-direction: column;
     gap: 20px;
     text-align: center;
   }
   .service-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .question-parent {
+    flex-direction: column-reverse;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .contact-left {
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
