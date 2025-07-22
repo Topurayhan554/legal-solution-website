@@ -56,6 +56,7 @@ ul li a {
   text-align: center;
   padding: 0 20px;
   margin: 50px auto;
+  border-radius: 8px;
 }
 .banner-content {
   max-width: 692px;
@@ -110,7 +111,7 @@ ul li a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 64px;
+  margin: 64px auto;
 }
 .service-card img {
   width: 72px;
@@ -142,4 +143,25 @@ ul li a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+.hide {
+  display: none;
+}
+
+/* about-client style */
+.banner-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.banner-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.banner-des {
+  font-size: 1rem;
+  color: #ffffff;
 }

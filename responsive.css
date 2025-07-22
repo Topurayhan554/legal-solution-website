@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+  nav,
+  ul,
+  .search-box {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .banner-content h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .search-box input {
+    width: 100%;
+  }
+  .service-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* tablet device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .service-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
